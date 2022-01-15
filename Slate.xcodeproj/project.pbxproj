@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A180A8027829B5400025CA9 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A180A7F27829B5400025CA9 /* TaskListView.swift */; };
+		1A180A8327829BC600025CA9 /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A180A8227829BC600025CA9 /* TaskData.swift */; };
+		1A180A8527829C5600025CA9 /* SubtaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A180A8427829C5600025CA9 /* SubtaskData.swift */; };
+		1A180A872782A86900025CA9 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A180A862782A86900025CA9 /* TaskView.swift */; };
 		1A1B686827741D2F00367796 /* SlateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B686727741D2F00367796 /* SlateApp.swift */; };
 		1A1B686A27741D2F00367796 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B686927741D2F00367796 /* ContentView.swift */; };
 		1A1B686C27741D3200367796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1B686B27741D3200367796 /* Assets.xcassets */; };
@@ -14,6 +18,17 @@
 		1A1B687927741D3200367796 /* SlateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B687827741D3200367796 /* SlateTests.swift */; };
 		1A1B688327741D3200367796 /* SlateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B688227741D3200367796 /* SlateUITests.swift */; };
 		1A1B688527741D3200367796 /* SlateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B688427741D3200367796 /* SlateUITestsLaunchTests.swift */; };
+		1A33D846278793B0002F10EC /* Playfair.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A6C54CC27853E1A004A60BD /* Playfair.ttf */; };
+		1A33D847278793B3002F10EC /* Playfair.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A6C54CC27853E1A004A60BD /* Playfair.ttf */; };
+		1A33D848278793B4002F10EC /* Playfair.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A6C54CC27853E1A004A60BD /* Playfair.ttf */; };
+		1A4E68C227862C5E00FE5066 /* MasterTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E68C127862C5E00FE5066 /* MasterTasks.swift */; };
+		1A6C54C427840D80004A60BD /* CompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C54C327840D80004A60BD /* CompletedView.swift */; };
+		1A6C54C62784123C004A60BD /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C54C52784123C004A60BD /* ToDoView.swift */; };
+		1A6C54CA27842745004A60BD /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C54C927842745004A60BD /* RootView.swift */; };
+		1A6C54CE27855781004A60BD /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C54CD27855781004A60BD /* EditTaskView.swift */; };
+		1AADDF762792124000DAE178 /* SlateFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AADDF752792124000DAE178 /* SlateFiles.swift */; };
+		1AADDF78279220CB00DAE178 /* TaskSubheading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AADDF77279220CB00DAE178 /* TaskSubheading.swift */; };
+		1AF907DC27818BDC00FF066F /* ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF907DB27818BDC00FF066F /* ListTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A180A7F27829B5400025CA9 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		1A180A8227829BC600025CA9 /* TaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
+		1A180A8427829C5600025CA9 /* SubtaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtaskData.swift; sourceTree = "<group>"; };
+		1A180A862782A86900025CA9 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		1A1B686427741D2F00367796 /* Slate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1B686727741D2F00367796 /* SlateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateApp.swift; sourceTree = "<group>"; };
 		1A1B686927741D2F00367796 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +63,16 @@
 		1A1B687E27741D3200367796 /* SlateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1B688227741D3200367796 /* SlateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateUITests.swift; sourceTree = "<group>"; };
 		1A1B688427741D3200367796 /* SlateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A33D84B278794BB002F10EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1A4E68C127862C5E00FE5066 /* MasterTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTasks.swift; sourceTree = "<group>"; };
+		1A6C54C327840D80004A60BD /* CompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedView.swift; sourceTree = "<group>"; };
+		1A6C54C52784123C004A60BD /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		1A6C54C927842745004A60BD /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1A6C54CC27853E1A004A60BD /* Playfair.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Playfair.ttf; sourceTree = "<group>"; };
+		1A6C54CD27855781004A60BD /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		1AADDF752792124000DAE178 /* SlateFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateFiles.swift; sourceTree = "<group>"; };
+		1AADDF77279220CB00DAE178 /* TaskSubheading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSubheading.swift; sourceTree = "<group>"; };
+		1AF907DB27818BDC00FF066F /* ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +100,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A180A7C27828F8E00025CA9 /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				1A1B686927741D2F00367796 /* ContentView.swift */,
+				1AF907DB27818BDC00FF066F /* ListTests.swift */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
+		1A180A8127829BB600025CA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A180A8227829BC600025CA9 /* TaskData.swift */,
+				1A180A8427829C5600025CA9 /* SubtaskData.swift */,
+				1A4E68C127862C5E00FE5066 /* MasterTasks.swift */,
+				1AADDF752792124000DAE178 /* SlateFiles.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1A1B685B27741D2F00367796 = {
 			isa = PBXGroup;
 			children = (
+				1A6C54CC27853E1A004A60BD /* Playfair.ttf */,
+				1A6C54CB27853E0A004A60BD /* Fonts */,
+				1A180A7C27828F8E00025CA9 /* Learning */,
 				1A1B686627741D2F00367796 /* Slate */,
 				1A1B687727741D3200367796 /* SlateTests */,
 				1A1B688127741D3200367796 /* SlateUITests */,
@@ -94,8 +146,16 @@
 		1A1B686627741D2F00367796 /* Slate */ = {
 			isa = PBXGroup;
 			children = (
+				1A33D84B278794BB002F10EC /* Info.plist */,
+				1A180A8127829BB600025CA9 /* Models */,
 				1A1B686727741D2F00367796 /* SlateApp.swift */,
-				1A1B686927741D2F00367796 /* ContentView.swift */,
+				1A6C54C927842745004A60BD /* RootView.swift */,
+				1A6C54C52784123C004A60BD /* ToDoView.swift */,
+				1A6C54C327840D80004A60BD /* CompletedView.swift */,
+				1A180A7F27829B5400025CA9 /* TaskListView.swift */,
+				1A6C54CD27855781004A60BD /* EditTaskView.swift */,
+				1A180A862782A86900025CA9 /* TaskView.swift */,
+				1AADDF77279220CB00DAE178 /* TaskSubheading.swift */,
 				1A1B686B27741D3200367796 /* Assets.xcassets */,
 				1A1B686D27741D3200367796 /* Preview Content */,
 			);
@@ -125,6 +185,13 @@
 				1A1B688427741D3200367796 /* SlateUITestsLaunchTests.swift */,
 			);
 			path = SlateUITests;
+			sourceTree = "<group>";
+		};
+		1A6C54CB27853E0A004A60BD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +300,7 @@
 			files = (
 				1A1B686F27741D3200367796 /* Preview Assets.xcassets in Resources */,
 				1A1B686C27741D3200367796 /* Assets.xcassets in Resources */,
+				1A33D846278793B0002F10EC /* Playfair.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A33D847278793B3002F10EC /* Playfair.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A33D848278793B4002F10EC /* Playfair.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +327,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6C54C62784123C004A60BD /* ToDoView.swift in Sources */,
+				1AADDF762792124000DAE178 /* SlateFiles.swift in Sources */,
 				1A1B686A27741D2F00367796 /* ContentView.swift in Sources */,
+				1A180A8327829BC600025CA9 /* TaskData.swift in Sources */,
+				1AADDF78279220CB00DAE178 /* TaskSubheading.swift in Sources */,
+				1A180A8027829B5400025CA9 /* TaskListView.swift in Sources */,
 				1A1B686827741D2F00367796 /* SlateApp.swift in Sources */,
+				1A6C54C427840D80004A60BD /* CompletedView.swift in Sources */,
+				1AF907DC27818BDC00FF066F /* ListTests.swift in Sources */,
+				1A6C54CE27855781004A60BD /* EditTaskView.swift in Sources */,
+				1A4E68C227862C5E00FE5066 /* MasterTasks.swift in Sources */,
+				1A180A8527829C5600025CA9 /* SubtaskData.swift in Sources */,
+				1A180A872782A86900025CA9 /* TaskView.swift in Sources */,
+				1A6C54CA27842745004A60BD /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +504,7 @@
 				DEVELOPMENT_TEAM = 53FCDV3775;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Slate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +534,7 @@
 				DEVELOPMENT_TEAM = 53FCDV3775;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Slate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
